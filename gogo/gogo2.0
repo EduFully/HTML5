@@ -1,40 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name = "viewport" content="width = device-width,initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Gogo.com</title>
+        <link rel="stylesheet" type="text/css" href="cod.css" />
         <style>
-            #background{
-                /*background-color: rgba(243, 255, 154, 0.962);/=*/
-                background-image: src="sexta.png" /*fixed no-repeat;*/
-            }
-            #input_email{
-                padding: 5px 10px;
-                margin: auto 640px;
-            }
-            #input_senha{
-                padding: 5px 10px;
-                margin: auto 640px;
-            }
-            #meio_enter{
-                margin: 0px 0px 0px 710px;
-            }
-            #meio_logo{
-                margin: 200px 0px 0px 630px;
-            }
-            #meio_text{
-                margin: 0px 0px 0px 640px;
-            }
+            
         </style>
     </head>
     <body id="background">
         <img id="meio_logo" src="file:///C:/Users/eduar/Downloads/google-new-logo (1).png" width="200" height="100">
-        <p id="meio_text">Email ou Usuario</p>
-        <input type="email" id="input_email"><br><br>
-        <p id="meio_text">Senha</p>
-        <input type="password" id="input_senha"><br><br>
+        <div>
+            <p id="meio_text">Email ou Usuario</p>
+            <input type="email" id="input_email"><br><br>
+        </div>
+        <div>
+            <p id="meio_text">Senha</p>
+            <input type="password" id="input_senha"><br><br>
+        </div>
         <button id="meio_enter">
             Entrar
         </button>
+        <div class="trapezioinvertido"></div></br>
     </body>
 </html>
+
