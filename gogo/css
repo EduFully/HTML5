@@ -1,0 +1,39 @@
+#background{
+    background-image: src=("sexta.png");
+}
+#input_email{
+    padding: 5px 10px;
+    margin: auto 640px;
+}
+#input_senha{
+    padding: 5px 10px;
+    margin: auto 640px;
+}
+#meio_enter{
+    margin: 0px 0px 0px 710px;
+}
+#meio_logo{
+    margin: 200px 0px 0px 630px;
+}
+#meio_text{
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 0px 0px 0px 640px;
+}
+/*div.trapezioinvertido {
+    height: 400px;
+    width: 200px;
+    border-bottom: 5px solid;
+    border-top: 5px solid;
+    border-left: 5px solid;
+    border-right: 5px solid;
+    border-color: rgb(0, 0, 0);
+}*/
+body{
+    background-image: url("unknown.png");
+    opacity: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+}
