@@ -4,9 +4,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Gogo.com</title>
         <link rel="stylesheet" type="text/css" href="cod.css" />
-        <style>
-            
-        </style>
     </head>
     <body id="background">
         <img id="meio_logo" src="file:///C:/Users/eduar/Downloads/google-new-logo (1).png" width="200" height="100">
@@ -18,10 +15,8 @@
             <p id="meio_text">Senha</p>
             <input type="password" id="input_senha"><br><br>
         </div>
-        <button id="meio_enter">
-            Entrar
-        </button>
-        <div class="trapezioinvertido"></div></br>
+        <a href="https://goyabu.com/">
+            <input type="button" class="botao" value="Entrar">
+        </a>
     </body>
 </html>
-
