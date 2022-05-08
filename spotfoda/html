@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css.css" />
+        
+    </head>
+    <body topmargin="0" leftmargin="0">
+        <main class="centrao">
+            <div class="borda_menu"></div>
+            <div class="linha"></div>
+            <div class="img_config"></div>
+            <div class="text">
+                <strong class="ibs">...</strong><br><br>
+                <div>
+                    <img src="casa.png" alt="" id="invert"  class="ibs" width="25" height="25">
+                    <input type="button"  value="Inicio" class="ibs">
+                </div>
+                 <div> 
+                    <img src="lupa.png" alt="" id="invert" class="ibs" width="25" height="25">
+                    <input type="button" class="ibs" value="Buscar">
+                </div>  
+                <div>
+                    <img src="livros.png" alt="" id="invert" class="ibs" width="25" width="25">
+                    <input type="button" class="ibs" value="Sua Biblioteca"><br>
+                </div>
+                <div>
+                    <img src="mais.png" alt="" id="invert" class="ibs" width="25" height="25">
+                    <input type="button" class="ibs" value="Criar playlist">
+                </div>
+                <div>
+                    <img src="curtida.png" alt="" id="invert" class="ibs" width="25" height="25">
+                    <input type="button" class="ibs" value="Musicas Curtidas">
+                </div>
+                
+            </div>
+        </main>
+    </body>
+</html>
