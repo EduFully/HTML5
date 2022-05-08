@@ -1,0 +1,71 @@
+.ibs{
+    margin: 20px 0px 0px 25px;
+    position:static;
+    font-family: Noto Sans, sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    filter: brightness(75%);
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-weight: 600;
+    
+}
+.ibs:hover{
+    margin: 20px 0px 0px 25px;
+    position: static;
+    font-family: Noto Sans, sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    filter: brightness(100%);
+    cursor: hand;
+    border: none;
+    background-color: transparent;
+}
+body{
+    background-image: linear-gradient(#ff7a3c,#000000);
+    background-repeat: no-repeat;
+    height: 762px;
+}
+.borda_menu{
+    background-color: #000000;
+    border: none;
+    height: 762px;
+    width: 200px;
+}
+.linha{
+    background-color: #919191;
+    border: none;
+    position: absolute;
+    margin: 250px 0px 0px 10px;
+    width: 175px;
+    height: 1px;
+}
+.centrao{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+.botao_menu{
+    background-color: transparent;
+    border: none;
+    height: 15px;
+    width: 30px;
+}
+div.text{
+    position:absolute;
+    font-family: Noto Sans, sans-serif;
+    font-size: 15px;
+}
+#invert{
+    filter: brightness(75%);
+    position: absolute;
+    margin: 15px 0px 0px 5px;
+    cursor: pointer;
+}
+#invert:hover{
+    
+    position: absolute;
+    margin: 15px 0px 0px 5px;
+    cursor: hand;
+}
