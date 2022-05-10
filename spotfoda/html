@@ -3,36 +3,64 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="css.css" />
-        
+        <title>Spotfoda</title>
+        <link rel="shortcut icon" href="icone-spotify-rouge.ico" type="x icon">
     </head>
     <body topmargin="0" leftmargin="0">
         <main class="centrao">
             <div class="borda_menu"></div>
+            <div class="borda_musica"></div>
             <div class="linha"></div>
             <div class="img_config"></div>
             <div class="text">
-                <strong class="ibs">...</strong><br><br>
-                <div>
-                    <img src="casa.png" alt="" id="invert"  class="ibs" width="25" height="25">
-                    <input type="button"  value="Inicio" class="ibs">
+                <div id="ibs">
+                    <p id="ibs_text">...</p>
                 </div>
-                 <div> 
-                    <img src="lupa.png" alt="" id="invert" class="ibs" width="25" height="25">
-                    <input type="button" class="ibs" value="Buscar">
+                <div id="ibs">
+                    <img src="casa.png" alt="" width="25" height="25">
+                    <input type="button"  value="Inicio" id="ibs_text">
+                </div>
+                 <div id="ibs"> 
+                    <img src="lupa.png" alt="" width="25" height="25">
+                    <input type="button" id="ibs_text" value="Buscar">
                 </div>  
-                <div>
-                    <img src="livros.png" alt="" id="invert" class="ibs" width="25" width="25">
-                    <input type="button" class="ibs" value="Sua Biblioteca"><br>
+                <div id="ibs">
+                    <img src="livros.png" alt="" width="25" width="25">
+                    <input type="button" id="ibs_text" value="Sua Biblioteca"><br>
+                </div><br>
+                <div id="ibs">
+                    <img src="mais.png" alt="" width="25" height="25">
+                    <input type="button" id="ibs_text" value="Criar playlist">
                 </div>
-                <div>
-                    <img src="mais.png" alt="" id="invert" class="ibs" width="25" height="25">
-                    <input type="button" class="ibs" value="Criar playlist">
+                <div id="ibs">
+                    <img src="curtida.png" alt="" width="25" height="25">
+                    <input type="button" id="ibs_text" value="Musicas Curtidas">
                 </div>
-                <div>
-                    <img src="curtida.png" alt="" id="invert" class="ibs" width="25" height="25">
-                    <input type="button" class="ibs" value="Musicas Curtidas">
+                <div id="musica1">
+                    <img src="26358.png" alt="" width="100" height="100" class="invert_cor">
+                    <p id="musica1_text">Musica 1</p>
                 </div>
-                
+                <div id="musica2">
+                    <img src="26358.png" alt="" width="100" height="100" class="invert_cor">
+                    <p id="musica2_text">Musica 2</p>
+                </div>
+                <div id="musica3">
+                    <img src="26358.png" alt="" width="100" height="100" class="invert_cor">
+                    <p id="musica3_text">Musica 3</p>
+                </div>
+                <div id="musica4">
+                    <img src="26358.png" alt="" width="100" height="100" class="invert_cor">
+                    <p id="musica4_text">Musica 4</p>
+                </div>
+                <div id="musica5">
+                    <img src="26358.png" alt="" width="100" height="100" class="invert_cor">
+                    <p id="musica5_text">Musica 5</p>
+                </div>
+                <div id="musica6">
+                    <img src="26358.png" alt="" width="100" height="100" class="invert_cor">
+                    <p id="musica5_text">Musica 6</p>
+                </div>
+                <audio src="xii.mp3" autoplay controls class="barra_audio"></audio>
             </div>
         </main>
     </body>
