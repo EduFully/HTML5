@@ -1,0 +1,119 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+main{
+    width: 980;
+    margin: 0 auto;
+    position: relative;
+}
+ul{
+    padding: 0px!important;
+}
+.menu-1{
+    background-color: rgb(56, 184, 75);
+    height: 75px;
+    width: 100%;
+}
+.logo{
+    padding: 5px;
+    float: left;
+}
+.redes ul li{
+    float: left;
+    display: inline-block;
+    padding: 15px 10px;
+    list-style: none;
+}
+.logo p{
+    font-family: Luminari,fantasy;
+    font-size: 30px;
+    width: 700px;
+    color: rgb(231, 231, 231);
+    float: right;
+    margin-top: 15px;
+    text-shadow: -2px -2px 3px rgb(0, 0, 0);
+}
+.menu-2{
+    background-color: #ffffff;
+    width: 980px;
+    margin: 0 auto;
+
+}
+.menus-urls{
+    height: 60px;
+    border-bottom: #bebebe solid 3px;
+}
+.menu ul li{
+    display: inline-block;
+    color: #bebebe;
+    margin-left: 15px;
+    height: 45px;
+}
+.menu ul li:hover{
+    border-bottom: 2px solid rgb(31, 126, 31);
+}
+.menu ul li a:hover{
+    color: rgb(31, 126, 31);
+}
+.menu ul li a{
+    color: #bebebe;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.menu{
+    float: left;
+    width: 70%;
+}
+.busca{
+    width: 30%;
+    float: right;
+}
+.busca input{
+    background-image: url('../img/lupa.png');
+    background-repeat: no-repeat;
+    margin-top: 7px;
+    height: 36px;
+    width: 190px;
+    padding: 10px;
+    background-position: right;
+    border: solid 1px #bebebe;
+    margin-left: 90px;
+}
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.mid-img{
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 3%;
+}
+
+.tabel1{
+    border: none;
+    box-shadow: 1px 1px 2px black;
+    border-collapse: collapse;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    width: 980px;
+    margin: 0 5%;
+    background-color: #ffffff;
+}
+.tabel1 table{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-collapse: collapse;
+}
+body{
+    background-image: url('../img/5.png');
+    background-repeat: no-repeat;
+    background-position: 1200px 154px; 
+    background-size: 350px 900px;
+}
