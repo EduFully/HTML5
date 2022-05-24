@@ -2,12 +2,12 @@ body{
     height: 100%;
     width: 100%;
     margin: 0 auto;
-    background-color: #ffffff;
 }
 main{
     width: 980;
     margin: 0 auto;
     position: relative;
+    border: none;
 }
 ul{
     padding: 0px!important;
@@ -45,6 +45,7 @@ ul{
 .menus-urls{
     height: 60px;
     border-bottom: #bebebe solid 3px;
+    background-color: #ffffff;
 }
 .menu ul li{
     display: inline-block;
@@ -89,7 +90,7 @@ ul{
     position: relative;
 }
 .mid-img{
-    padding-left: 10%;
+    padding-left: 20%;
     padding-top: 10%;
     padding-bottom: 3%;
 }
@@ -111,9 +112,91 @@ ul{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-collapse: collapse;
 }
-body{
-    background-image: url('../img/5.png');
-    background-repeat: no-repeat;
-    background-position: 1200px 154px; 
-    background-size: 350px 900px;
+
+.table2{
+    border: none;
+    box-shadow: 1px 1px 2px black;
+    border-collapse: collapse;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    width: 480px;
+    margin: 25% 5%;
+    background-color: #ffffff;
+    float: left;
+    display: inline-block;
+}
+.mid-img2{
+    float: right;
+    display: inline-block;
+    padding-top: 12%;
+}
+.mid-img3{
+    display: inline-block;
+    padding-top: 7%;
+    float: right;
+}
+.heychika{
+    display: inline-block;
+    padding-top: -200px;
+    float: right;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+}
+.imc{
+    border: none;
+    box-shadow: 0 0 1px black;
+    width: 50%;
+    height: 500px;
+    margin-top: 10%;
+    align-self: center;
+    border-radius: 6px;
+    margin-left: 25%;
+}
+.imc input{
+    border: solid #bebebe 2px;
+    height: 30px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    border-radius: 4px;
+}
+
+.imc button{
+    border: none;
+    background-color: aquamarine;
+    width: 80%;
+    height: 25px;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    align-content: center;
+    margin-left: 10%;
+    margin-top: 5%;
+    cursor: pointer;
+
+}
+.result{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    width: 300px;
+    height: 50%;
+    width: 61%;
+    border-radius: 5px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: #bebebe;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 0px 0px 3px rgb(0, 0, 0);
+    background: #ffffff;
+    color: rgb(49, 46, 33);
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: auto;
+    margin-left: 20%;
+    border-collapse: collapse;
 }
